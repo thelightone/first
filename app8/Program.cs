@@ -9,6 +9,7 @@ namespace app8
 {
     class Program
     {
+        static int test = 0;
         static int roomnumber = 0;
         static bool havefire = false;
         static bool havekey = false;
