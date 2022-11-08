@@ -7,8 +7,10 @@
 
   <ItemGroup>
     <None Remove="Telegram.Bot" />
+    <None Remove="System.Data.SQLite" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Telegram.Bot" Version="18.0.0" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.116" />
   </ItemGroup>
 </Project>
